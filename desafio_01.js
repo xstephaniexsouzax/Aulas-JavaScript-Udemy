@@ -1,6 +1,6 @@
  var numero1 = prompt('Digite o primeiro número :');
  var numero2 = prompt('Digite o segundo número :');
- var operacao = prompt('Digite a operação em forma de texto: soma ou subtração ');
+ var operacao = prompt('Digite a operação em forma de texto: soma ou subtracao ');
  numero1 = parseInt(numero1); 
  numero2 = parseInt(numero2);
 
@@ -21,4 +21,4 @@ function calcular(numero1, numero2, operacao) {
     }
 }
 
-document.write('O resultado é '+ );
+document.write('O resultado é '+ calcular(numero1, numero2,operacao));
