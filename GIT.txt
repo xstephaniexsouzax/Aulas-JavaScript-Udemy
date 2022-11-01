@@ -1,0 +1,9 @@
+git commit -m "primeiro-comit"
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/xstephaniexsouzax/Aulas-JavaScript-Udemy.git
+git push -u origin main
