@@ -1,18 +1,18 @@
 
 var objetos = Array('Cadeira', 'Impressora', 'Garfo')
-
+//se array == -1 ele não exite 
 
 function clicarEmAdiconar() {
     var caracter = document.getElementById('texto').value //selecionar e guardar o valor digitado
-
-    if (caracter != '') {
-        if (objetos.indexOf(caracter) !== -1) {
+    //logica 
+    if (caracter != '') { //diferente
+        if (objetos.indexOf(caracter) !== -1) { //não identico
             alert('Objeto já foi adicionado')
             console.log(objetos)
         } else {
             objetos.push(caracter)
             console.log(caracter)
-            document.getElementById('texto').value = ''
+            document.getElementById('texto').value = ''//limpa a tela 
         }
     }
     else {
@@ -33,6 +33,7 @@ function clicarEmOrdenar () {
      alert('Digite um caracter!')
  }
 }
+
 
 
 
